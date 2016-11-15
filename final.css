@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+     url('http://torange.biz/photo/24/24614/24614-FX-8-0-0-0-7-1.jpg');
+}
+
+ul.top-bar {
+    position: relative;
+    list-style-type: none;
+    padding-left: 125px;
+    padding-bottom: 0;
+    overflow:hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b7edff;
+}
+
+.active {
+    background-color: #b7edff;
+}
+div.mid-header {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+#mid-head {
+    font-size: 70px;
+}
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #c6c0c0;
+    text-align: center;
+    padding:10px;
+    color:black;
+}
