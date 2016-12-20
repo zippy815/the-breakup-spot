@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+     url('http://www.lastnightoutfit.com/wp-content/uploads/2016/02/roses-live-wallpaper-86a4ad-h900.jpg');
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul.top-bar {
+    position: relative;
+    list-style-type: none;
+    padding-left: 100px;
+    padding-bottom: 0;
+    overflow:hidden; 
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #e5dcce;
+    text-align: center;
+    font-size: 22px;
+    padding:  14px 16px;
+    text-decoration: none;
+    float:right;
+}
+
+li a:hover:not(.active) {
+    background-color: #ec538d;
+}
+
+.active {
+    background-color: #ec538d;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+div.mid-header {
+    display: block;
+    text-align: center;
+    margin-top: 125px;
+    font-size:22px;
+    color:#e5dcce;
+    text-transform: uppercase;
+}
+#mid-head {
+    font-size: 55px;
+    color:white;
+    font-weight: bold;
+}
+#btn {
+    background-color: #fc3377;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 20px 50px 24px 50px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.mid, .mid2 {
+    margin-top: 10px;
+    border-radius: 5px;
+    color:white;
+    float:left;
+    display:block;
+    margin-left:20px;
+    margin-right: 50px;
+    max-width:600px;
+}
+.mid2{
+    margin-bottom:50px;
+}
+#title {
+    text-align: center;
+    margin-left:50px;
+    color:white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    padding: 14px 16px;
+    text-align: left;
+    line-height:1.5;
+    margin-bottom: 20px;
+}
+aside.imgs {
+    float:left;
+    margin-top:10px;
+    margin-left:50px;
+}
+img {
+    width:200px;
+}
+h3 {
+    text-align: center;
+}
+ul.questions {
+    padding-left:10px;
+    text-align: center;
+}
+aside.imgs2 {
+    float:right;
+    margin-right:150px;
+}
+.questions {
+    list-style-type:none;
+}
